@@ -1,20 +1,20 @@
 const ckie = {
 	c: {
 		e: function(msg) {
-			console.error("COOKIE: "+msg+".");
+			console.error("ckiejs: "+msg+".");
 		},
 		w: function(msg) {
-			console.warn("COOKIE: "+msg+".");
+			console.warn("ckiejs: "+msg+".");
 		},
 		i: function(msg) {
-			console.info("COOKIE: "+msg+".");
+			console.info("ckiejs: "+msg+".");
 		},
 		l: function(m) {
 			console.log(m);
 		}
 	},
 	info: function() {
-		ckie.c.l("CKie.js, simple and straightforward cookie management with JavaScript.");
+		ckie.c.l("ckie.js, simple and straightforward cookie management with JavaScript.");
 	},
 	set: function(cname,cvalue,xdays) {
 		if(xdays != 0 && xdays != "0" && xdays != null && xdays != undefined) {
